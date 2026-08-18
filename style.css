@@ -1,0 +1,23 @@
+body {
+    background-color: #323232;
+    
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+    margin: 45px;
+    color: white;
+
+}
+
+#titulo1 { 
+    color: white;
+    font-family: ;
+}
