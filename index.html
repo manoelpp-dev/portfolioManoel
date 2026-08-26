@@ -11,14 +11,14 @@
         <span id="logotipo">Manoel Pinto Paiva</span>
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="/SOBREMIM">Sobre mim</a></li>
-                <li><a href="/HABILIDADES">Habilidades</a></li>
-                <li><a href="/PROJETOS">Projetos</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
             </ul>
         </nav>
-        <a href="/CONTATO"><button type="button">Contato</button></a>
+        <a href="#ctt"><button type="button">Contato</button></a>
     </header>   
-    <section class="main_card">
+    <section class="main_card" id="sobreMim">
         <img id="foto_perfil" src="imagens/WhatsApp Image 2026-08-17 at 12.47.28.jpeg" alt="Foto de perfil">
         <div class="sobreMim_card">
             <div class="texto01">
@@ -42,11 +42,11 @@
             </div>
         </div>
     </section>
-    <section class="habilidades_card">
+    <section class="habilidades_card" id="habilidades">
         <br><br><br>
         <span>&lt;Habilidades&#47;&gt;</span>
         <div class="marquee-track">
-            <marquee behavior="scroll" direction="right" scrollamount="20"><p>Java • Python • HTML5 • CSS3 • JavaScript • SQL • PostgreSQL • Inglês</p></marquee>
+            <marquee behavior="scroll" direction="right" scrollamount="20"><p>Java • Python • HTML5 • CSS3 • JavaScript • SQL • PostgreSQL • GitHub • Inglês</p></marquee>
         </div>
         <div class="certificados">
             <br><br>
@@ -57,7 +57,7 @@
             </fieldset>
         </div>
     </section>
-    <section class="projetos_card">
+    <section class="projetos_card" id="projetos">
         <br>
         <span>&lt;Projetos&#47;&gt;</span>
         <br><br>
@@ -73,18 +73,21 @@
             </fieldset>
         </div>
     </section>
-    <section class="contatos_card">
+    <section class="contatos_card" id="ctt">
         <p>Obrigado por vizualizar o meu portfólio! Caso tenha <br>
         interesse, estes são os meus contatos:</p>
-        <br><br>
         <span>&lt;Contatos&#47;&gt;</span>
-        <div class="email-ctt">
-            <img src="imagens/img_email.png" alt="Logo E-Mail">
-            <p>manoelpaiva725@gmail.com</p>
-        <div class="github-ctt">
-            <a href="https://github.com/manoelpp-dev"><img src="imagens/img_github.png" alt="Logo GitHub"></a>
-            <a href="https://github.com/manoelpp-dev">GitHub</a>
-        </div>    
+        <div>
+            <img src="imagens/img_email.png" alt="Logo E-Mail" id="img-email">
+            <a href="mailto:manoelpaiva725@gmail.com" id="link-email">manoelpaiva725@gmail.com</a>
+        <div>
+            <img src="imagens/img_github.png" alt="Logo GitHub" id="img-github">
+            <a href="https://github.com/manoelpp-dev" id="link-github">GitHub</a>
+        </div>
+        <div>
+            <img src="imagens/linkedin-app-white-icon.webp" alt="Logo LinkedIn" id="img-linkedin">
+            <a href="https://www.linkedin.com/in/manoel-paiva/" id="link-linkedin">LinkedIn</a>
+        </div>
     </section>
 </body>
 </html>

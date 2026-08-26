@@ -321,24 +321,61 @@ header button:hover {
     left: 60px;
 }
 
-.email-ctt img {
+#img-email {
     filter: invert(100%);
     width: 100px;
-    height: auto;
+    display: flex;
     position: relative;
-    left: 50px;
-    top: 260px;
+    top: 240px;
+    left: 60px;
+
 }
 
-.email-ctt p {
-    display: inline;
+#link-email {
+    font-family: "DM Sans", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 170px;
+}
+
+#img-github {
+    filter: invert(100%);
+    width: 80px;
+    height: auto;
+    display: block;
+    position: relative;
+    top: 240px;
+    left: 70px;
+}
+
+#link-github {
+    font-family: "DM Sans", sans-serif;
     font-weight: normal;
     font-size: 28px;
     position: relative;
+    top: 185px;
+    left: 170px;
 }
 
+#img-linkedin {
+    width: 70px;
+    height: auto;
+    position: relative;
+    top: 260px;
+    left: 72px;
+}
 
-
+#link-linkedin {
+    font-family: "DM Sans", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    position: relative;
+    top: 237px;
+    left: 94px;
+}
 
 
 
