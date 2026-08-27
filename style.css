@@ -4,7 +4,6 @@
 
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -265,7 +264,7 @@ header button:hover {
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
     position: relative;
-    left: 50px;
+    left: 55px;
     top: 125px;
 }
 
@@ -362,6 +361,10 @@ header button:hover {
     left: 170px;
 }
 
+#link-email:hover {
+    color: #ff3131;
+}
+
 #img-github {
     filter: invert(100%);
     width: 80px;
@@ -381,6 +384,10 @@ header button:hover {
     left: 170px;
 }
 
+#link-github:hover {
+    color: #ff3131;
+}
+
 #img-linkedin {
     width: 70px;
     height: auto;
@@ -398,5 +405,14 @@ header button:hover {
     left: 94px;
 }
 
+#link-linkedin:hover {
+    color: #ff3131;
+}
 
-
+#fundo {
+    mix-blend-mode: multiply;
+    transform: rotate(26deg);
+    position: relative;
+    top: -900px;
+    padding-left: 1400px;
+}
